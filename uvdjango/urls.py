@@ -11,7 +11,7 @@ urlpatterns = patterns('',
                        (r'^media/(?P<path>.*)$','django.views.static.serve',
                                     {'document_root': settings.MEDIA_ROOT}),
                        (r'', include('home.urls')),
-                       (r'^plots/', include('home.urls')),
+                       (r'^plots/', include('plots.urls')),
                        (r'^login/', include('login.urls', namespace='login')),
     # Examples:
     # url(r'^$', 'uvdjango.views.home', name='home'),
