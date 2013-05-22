@@ -143,6 +143,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'login',
     'home',
+    'plots',
+    'util',
     'esgf_auth_backend',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
